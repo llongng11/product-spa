@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-panel {
+  flex: 2;
+  min-width: 0;
+}
+
+input,
+select {
+  width: 100%;
+}
+
+.app-container {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.cart-panel {
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.product-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.rx {
+  background: #e53935;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  margin-left: 6px;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .cart-panel {
+    position: sticky;
+    bottom: 0;
+    background: white;
+  }
+}
