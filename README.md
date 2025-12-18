@@ -6,7 +6,7 @@ This project is built with **React + TypeScript** using **Vite**.
 
 ```bash
 npm install
-npm run dev
+npm start
 ```
 
 Then open the local URL shown in the terminal (usually
